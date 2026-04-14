@@ -14,5 +14,5 @@ jobs:
           lfs: true
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://abdul196:$HF_TOKEN@huggingface.co/spaces/abdul196/CIFAR-10-PYTHON02
+          HF_TOKEN: ${{ secrets.SIE ACCESS }}
+        run: git push https://abdul196:$HF_TOKEN@huggingface.co/spaces/abdul196/CIFAR-10-PYTHON02
