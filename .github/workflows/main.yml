@@ -1,0 +1,15 @@
+name: Sync to Hugging Face Hub
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: huggingface/hub-sync@v0.1.0
+        with:
+          github_repo_id: ${{ https://github.com/Abdullahi-Abdullahi-Dantala/edge-AI-edge-Intelligence-TinyML-SIE- }}
+          huggingface_repo_id: abdul196/CIFAR-10-PYTHON02
+          hf_token: ${{ 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 }}
