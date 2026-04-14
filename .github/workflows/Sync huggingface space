@@ -16,5 +16,5 @@ jobs:
         uses: huggingface/hub-sync@v0.1.0
         with:
           github_repo_id: Abdullahi-Abdullahi-Dantala/edge-AI-edge-Intelligence-TinyML-SIE-
-          huggingface_repo_id: https://huggingface.co/spaces/abdul196/CIFAR-10-PYTHON02
+          huggingface_repo_id: https://huggingface.co/spaces/abdul196/CIFAR-10-PYTHON02/tree/main
           hf_token: ${{ secrets.HF_TOKEN }}
